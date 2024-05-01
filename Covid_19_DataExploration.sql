@@ -212,13 +212,6 @@ WITH PercentPopulationVaccinated AS (
 In this corrected version, "NULL" is capitalized in the WHERE clause, ensuring it is syntactically correct.
 
 
-
-User
-Syntax error: Expected ")" but got end of script at [17:34]
-ChatGPT
-The query you provided seems to be incomplete or there might be a syntax error at the end of the script. The error message suggests that the parser was expecting a closing parenthesis ")" but instead found the end of the script.
-
-
 WITH PercentPopulationVaccinated AS (
     SELECT
         dea.continent, 
